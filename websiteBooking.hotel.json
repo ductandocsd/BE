@@ -1,0 +1,213 @@
+[
+    {
+        "name": "Grand Plaza Hotel",
+        "type": "4-star",
+        "city": "Metropolis",
+        "address": "789 Downtown Boulevard",
+        "distance": "1 mile from downtown",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21176998.webp?k=6429cdf8f0f0454aaeda51322672e907d1fb8ab22371b5970cb76a93faf66b2b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21175675.webp?k=3155e58c89bd2eb257fb3c19c2f52e0f1cb0d87597959edee0fb8f27628906ab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/85950212.webp?k=43e026156896d95ee96b7368fa95be69d5819a9928959346f93225bb7c30b62e&o="
+        ],
+        "title": "Elegant Urban Retreat",
+        "desc": "Experience sophistication and comfort in the heart of the city.",
+        "rating": 4.5,
+        "rooms": [
+            "Standard Room",
+            "Executive Suite",
+            "Penthouse"
+        ],
+        "cheapestPrice": 250,
+        "featured": true
+    },
+    {
+        "name": "Seaside Resort",
+        "type": "5-star",
+        "city": "Coastal Haven",
+        "address": "101 Oceanfront Drive",
+        "distance": "On the beachfront",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21176998.webp?k=6429cdf8f0f0454aaeda51322672e907d1fb8ab22371b5970cb76a93faf66b2b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21175675.webp?k=3155e58c89bd2eb257fb3c19c2f52e0f1cb0d87597959edee0fb8f27628906ab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/85950212.webp?k=43e026156896d95ee96b7368fa95be69d5819a9928959346f93225bb7c30b62e&o="
+        ],
+        "title": "Luxury by the Sea",
+        "desc": "Unwind in our beachfront paradise with stunning ocean views.",
+        "rating": 4.9,
+        "rooms": [
+            "Ocean View Room",
+            "Beachfront Villa"
+        ],
+        "cheapestPrice": 400,
+        "featured": true
+    },
+    {
+        "name": "Mountain Lodge",
+        "type": "3-star",
+        "city": "Alpine Retreat",
+        "address": "234 Mountain Trail",
+        "distance": "In the scenic mountains",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21176998.webp?k=6429cdf8f0f0454aaeda51322672e907d1fb8ab22371b5970cb76a93faf66b2b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21175675.webp?k=3155e58c89bd2eb257fb3c19c2f52e0f1cb0d87597959edee0fb8f27628906ab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/85950212.webp?k=43e026156896d95ee96b7368fa95be69d5819a9928959346f93225bb7c30b62e&o="
+        ],
+        "title": "Serene Mountain Getaway",
+        "desc": "Escape to nature in our cozy lodge nestled in the mountains.",
+        "rating": 3.7,
+        "rooms": [
+            "Standard Cabin",
+            "Mountain Suite"
+        ],
+        "cheapestPrice": 120,
+        "featured": false
+    },
+    {
+        "name": "City Lights Inn",
+        "type": "3-star",
+        "city": "Downtown Central",
+        "address": "456 Urban Street",
+        "distance": "Close to city attractions",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21176998.webp?k=6429cdf8f0f0454aaeda51322672e907d1fb8ab22371b5970cb76a93faf66b2b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21175675.webp?k=3155e58c89bd2eb257fb3c19c2f52e0f1cb0d87597959edee0fb8f27628906ab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/85950212.webp?k=43e026156896d95ee96b7368fa95be69d5819a9928959346f93225bb7c30b62e&o="
+        ],
+        "title": "Urban Charm",
+        "desc": "Experience the vibrancy of the city in our centrally located inn.",
+        "rating": 3.8,
+        "rooms": [
+            "City View Room",
+            "Executive Loft"
+        ],
+        "cheapestPrice": 150,
+        "featured": false
+    },
+    {
+        "name": "Tranquil Retreat",
+        "type": "4-star",
+        "city": "Nature Valley",
+        "address": "789 Meadow Lane",
+        "distance": "Surrounded by nature",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21176998.webp?k=6429cdf8f0f0454aaeda51322672e907d1fb8ab22371b5970cb76a93faf66b2b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21175675.webp?k=3155e58c89bd2eb257fb3c19c2f52e0f1cb0d87597959edee0fb8f27628906ab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/85950212.webp?k=43e026156896d95ee96b7368fa95be69d5819a9928959346f93225bb7c30b62e&o="
+        ],
+        "title": "Nature's Haven",
+        "desc": "Find peace and tranquility in our nature-inspired retreat.",
+        "rating": 4.2,
+        "rooms": [
+            "Nature View Cabin",
+            "Forest Suite"
+        ],
+        "cheapestPrice": 180,
+        "featured": false
+    },
+    {
+        "name": "Harborview Hotel",
+        "type": "4-star",
+        "city": "Harbor City",
+        "address": "101 Harbor Drive",
+        "distance": "Overlooking the harbor",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21176998.webp?k=6429cdf8f0f0454aaeda51322672e907d1fb8ab22371b5970cb76a93faf66b2b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21175675.webp?k=3155e58c89bd2eb257fb3c19c2f52e0f1cb0d87597959edee0fb8f27628906ab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/85950212.webp?k=43e026156896d95ee96b7368fa95be69d5819a9928959346f93225bb7c30b62e&o="
+        ],
+        "title": "Scenic Harbor Retreat",
+        "desc": "Enjoy stunning harbor views from our modern and stylish hotel.",
+        "rating": 4.4,
+        "rooms": [
+            "Harbor View Suite",
+            "Executive Penthouse"
+        ],
+        "cheapestPrice": 220,
+        "featured": true
+    },
+    {
+        "name": "Sunset Paradise Resort",
+        "type": "5-star",
+        "city": "Tropical Oasis",
+        "address": "123 Sunset Boulevard",
+        "distance": "In a tropical paradise",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21176998.webp?k=6429cdf8f0f0454aaeda51322672e907d1fb8ab22371b5970cb76a93faf66b2b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21175675.webp?k=3155e58c89bd2eb257fb3c19c2f52e0f1cb0d87597959edee0fb8f27628906ab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/85950212.webp?k=43e026156896d95ee96b7368fa95be69d5819a9928959346f93225bb7c30b62e&o="
+        ],
+        "title": "Ultimate Tropical Getaway",
+        "desc": "Experience luxury and relaxation in our tropical paradise resort.",
+        "rating": 4.7,
+        "rooms": [
+            "Tropical Villa",
+            "Beachfront Bungalow"
+        ],
+        "cheapestPrice": 380,
+        "featured": true
+    },
+    {
+        "name": "Skyline Tower Hotel",
+        "type": "4-star",
+        "city": "Skyline City",
+        "address": "456 Highrise Avenue",
+        "distance": "High above the city",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21176998.webp?k=6429cdf8f0f0454aaeda51322672e907d1fb8ab22371b5970cb76a93faf66b2b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21175675.webp?k=3155e58c89bd2eb257fb3c19c2f52e0f1cb0d87597959edee0fb8f27628906ab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/85950212.webp?k=43e026156896d95ee96b7368fa95be69d5819a9928959346f93225bb7c30b62e&o="
+        ],
+        "title": "Elevated Luxury",
+        "desc": "Enjoy breathtaking views and upscale amenities in our tower hotel.",
+        "rating": 4.6,
+        "rooms": [
+            "Skyline Suite",
+            "Executive Sky Loft"
+        ],
+        "cheapestPrice": 280,
+        "featured": true
+    },
+    {
+        "name": "Riverside Lodge",
+        "type": "3-star",
+        "city": "Riverfront Town",
+        "address": "234 Riverside Lane",
+        "distance": "Along the river",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21176998.webp?k=6429cdf8f0f0454aaeda51322672e907d1fb8ab22371b5970cb76a93faf66b2b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21175675.webp?k=3155e58c89bd2eb257fb3c19c2f52e0f1cb0d87597959edee0fb8f27628906ab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/85950212.webp?k=43e026156896d95ee96b7368fa95be69d5819a9928959346f93225bb7c30b62e&o="
+        ],
+        "title": "Quaint Riverside Retreat",
+        "desc": "Experience the charm of our lodge nestled along the peaceful river.",
+        "rating": 3.9,
+        "rooms": [
+            "Riverside Cabin",
+            "Cozy River Suite"
+        ],
+        "cheapestPrice": 130,
+        "featured": false
+    },
+    {
+        "name": "Garden Oasis Resort",
+        "type": "4-star",
+        "city": "Botanical Haven",
+        "address": "789 Garden Path",
+        "distance": "Amidst lush gardens",
+        "photos": [
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21176998.webp?k=6429cdf8f0f0454aaeda51322672e907d1fb8ab22371b5970cb76a93faf66b2b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/21175675.webp?k=3155e58c89bd2eb257fb3c19c2f52e0f1cb0d87597959edee0fb8f27628906ab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/270x200/85950212.webp?k=43e026156896d95ee96b7368fa95be69d5819a9928959346f93225bb7c30b62e&o="
+        ],
+        "title": "Botanical Bliss",
+        "desc": "Escape to a tranquil oasis surrounded by beautiful botanical gardens.",
+        "rating": 4.3,
+        "rooms": [
+            "Garden View Suite",
+            "Botanical Villa"
+        ],
+        "cheapestPrice": 200,
+        "featured": false
+    }
+]
