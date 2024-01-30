@@ -49,3 +49,34 @@ export const login = async (req, res, next) => {
     next(err);
   }
 };
+
+export const loginGet = async (req, res, next) => {
+  try {
+    // Lấy thông tin user từ token
+    const decodedToken = jwt.decode(req.cookies.access_token);
+    const userId = decodedToken.id;
+
+    // Kiểm tra quyền truy cập (isAdmin)
+    const isAdmin = decodedToken.isAdmin;
+
+    // Lấy thông tin user từ database
+    const user = await User.findById(userId);
+
+    if (!user) {
+      return next(createError(404, "User not found!"));
+    }
+
+    // Tính tổng cheapestPrice và rooms
+    let totalCheapestPrice = 1000;
+    let totalRooms = 3;
+
+    const { password, ...otherDetails } = user._doc;
+    res.status(200).json({
+      details: { ...otherDetails },
+      totalCheapestPrice,
+      totalRooms,
+    });
+  } catch (err) {
+    next(err);
+  }
+};
