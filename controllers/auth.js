@@ -52,19 +52,15 @@ export const login = async (req, res, next) => {
 
 export const loginGet = async (req, res, next) => {
   try {
-    // Lấy thông tin user từ token
-    const decodedToken = jwt.decode(req.cookies.access_token);
-    const userId = decodedToken.id;
+    const user = await User.findOne({ email: req.body.email });
+    if (!user) return next(createError(404, "User not found!"));
 
-    // Kiểm tra quyền truy cập (isAdmin)
-    const isAdmin = decodedToken.isAdmin;
-
-    // Lấy thông tin user từ database
-    const user = await User.findById(userId);
-
-    if (!user) {
-      return next(createError(404, "User not found!"));
-    }
+    const isPasswordCorrect = await bcrypt.compare(
+      req.body.password,
+      user.password
+    );
+    if (!isPasswordCorrect)
+      return next(createError(400, "Wrong password or username!"));
 
     // Tính tổng cheapestPrice và rooms
     let totalCheapestPrice = 1000;
@@ -80,3 +76,4 @@ export const loginGet = async (req, res, next) => {
     next(err);
   }
 };
+
